@@ -1,4 +1,4 @@
-# Local Mistral OCR-Compatible Wrapper for LibreChats
+# Local Mistral OCR-Compatible Wrapper for LibreChat
 
 A self-hosted, Docker-based wrapper that exposes a **Mistral OCR-compatible API** for **LibreChat**, while performing OCR entirely with **local tools**.
 
