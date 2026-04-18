@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import base644
+import base64
 import hashlib
 import json
 import mimetypes
