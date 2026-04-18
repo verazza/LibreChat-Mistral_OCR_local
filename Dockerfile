@@ -1,4 +1,4 @@
-FROM python:3.11-sli
+FROM python:3.11-slim
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONUNBUFFERED=1 \
