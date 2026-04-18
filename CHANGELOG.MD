@@ -4,12 +4,6 @@ v5 fixes:
 - no HTTP self-call in the `document_url` branch
 - if `document_url` points to the wrapper itself, the file is read directly from disk
 
-## Start
-```bash
-docker compose down
-docker compose up -d --build
-```
-
 ## LibreChat
 `.env`
 ```env
@@ -25,11 +19,6 @@ v4 additions:
 - `GET /v1/files/{id}/content`
 
 This fixes the LibreChat flow that requests a signed file URL before running OCR.
-
-## Start
-```bash
-docker compose up -d --build
-```
 
 ## Important variable
 In `docker-compose.yml`:
@@ -78,11 +67,6 @@ v3 additions:
 - `POST /v1/ocr` also returns `document_annotation` when requested
 - `pages` filter support
 
-## Start
-```bash
-docker compose up -d --build
-```
-
 ## LibreChat
 `.env`
 ```env
@@ -115,11 +99,6 @@ Implemented endpoints:
 - `DELETE /v1/files/{id}`
 - `POST /v1/ocr`
 - `GET /healthz`
-
-## Start
-```bash
-docker compose up -d --build
-```
 
 ## LibreChat
 `.env`
@@ -177,12 +156,6 @@ Under the hood it uses only local OCR:
 - `ocrmypdf`
 - `tesseract`
 - `PyMuPDF`
-
-## Start
-
-```bash
-docker compose up -d --build
-```
 
 Health check:
 
