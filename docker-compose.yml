@@ -10,7 +10,7 @@ services:
       OCR_TEXT_THRESHOLD: "50"
       FILE_TTL_SECONDS: "604800"
       DEFAULT_VISIBILITY: "workspace"
-      PUBLIC_BASE_URL: "http://172.0.4.100:8089"
+      PUBLIC_BASE_URL: "http://127.0.0.1:8089"
     volumes:
       - ./data:/data
     restart: unless-stopped
